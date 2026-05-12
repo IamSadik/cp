@@ -8,3 +8,4 @@ for step in steps:
         coordinate=(coordinate-step)
         output+=1
 print(output)
+ 
