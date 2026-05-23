@@ -1,10 +1,9 @@
-coordinate = int(input())
-output = 0
-steps= [5,4,3,2,1]
+n,t = map(int,input().split())
 
+import random
 
-for step in steps:
-    while step<=coordinate:
-        coordinate=(coordinate-step)
-        output+=1
-print(output)
+a = 10 ** (n-1)
+
+number = random.randint(a, a*10)
+
+print(number)
